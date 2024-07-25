@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from 'react';
 import { ComponentsStatusContextType } from '@/types/components-status';
@@ -17,7 +17,7 @@ const ComponentsStatusProvider: React.FC<{children: React.ReactNode}> = ({ child
   
   return (
     <ComponentsStatusContext.Provider
-      value={{ isDrawerOpen, isModalOpen, openDrawer, closeDrawer, openModal, closeModal}}
+      value={{ isDrawerOpen, isModalOpen, openDrawer, closeDrawer, openModal, closeModal }}
     >
       {children}
     </ComponentsStatusContext.Provider>
