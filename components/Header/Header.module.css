@@ -1,0 +1,19 @@
+.header {
+    background-color: #1f2937; /* bg-gray-800 */
+    color: #ffffff; /* text-white */
+    padding: 1rem; /* p-4 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem; /* spazio tra gli elementi */
+  }
+  
+  .nav a {
+    color: #ffffff; /* text-white */
+    text-decoration: none;
+  }
+  
